@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Labaratoriya ish</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <h1>LABARATORIYA №3</h1>
+      <ul>
+         <li><h3>Tayyorladi: Otaboyev Javohir</h3></li>
+         <li><h3>Guruh: 232-guruh KIDT Masofaviy</h3></li>
+         <li><h3>Mavzu: Ro'yxatlar bilan ishlash</h3></li>
+      </ul>
+      <p>HTML da ro’yhat va havolalar (giperyo’llanmalar).
+HTML da matnni yaxshi shakllangan, tartiblangan va semantik tarzda taqdim etish uchun ro’yxatlardan foydalaniladi. HTML da uch xil ro’yxatlar mavjud: tartiblangan (raqamli yoki harfli) va tartiblanmagan (belgili) ro’yhat hamda atamalarni tariflash ro’yhati.
+
+<ol> … </ol> — tartiblangan (raqamli va harfli) ro’yhatni aniqlash tegi. Teg atributlari:
+type=«1, A, a, I, i — ro’yhat markerlarini aniqlash»
+start=«ro’yhatning birinchi raqamini aniqlash»
+
+Tartiblangan ro’yhat ichidagi har bir elementi qo’yidagi teglar yordamida aniqlanadi:
+
+<lh> … </lh> — ro’yhat sarlavha elementini aniqlash tegi.
+
+<li> … </li> — ro’yhat oddiy elementini aniqlash tegi.
+
+Tartiblangan ro’yhat elementlarini aniqlash ushbu ikkita teglari qo’yidagi atributlarga ega:
+align = elementni hujjatdagi joylashuvi ( chap -«left» , o’ng — «right» , o’rta — «center» yoki ikkala tomon bo’yicha — «justify»)
+title = «sichqoncha bilan elementga ko’rsatilganda, ekranda chiquvchi yordamchi izoh matni»
+
+Misol:
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <!-- Sahifaning ekranga chiqmaydigan qism -->
+   <title> ..: Mening birinchi sahifam :.. </title>
+   <link rel="shortcut icon"  href="picture/icon.png" type="images/png">
+ </head>
+
+ <body>  
+   
+     <!-- Tartiblangan ro'yhat -->
+<ol type="I" start="1"> 
+<lh>  IT-kurs rejasi: </ln>
+<li> HTML </li>
+<li> CSS</li>
+ <li> JAVA SCRIPT</li> 
+<li> PYTHON</li> 
+</ol>
+
+ </body>
+</html>
+
+Bu misolda web sahifamizda rim raqamlar bilan boshlangan 4-ta elementdan iborat tartiblangan ro’yhat yaratiladi.yaratiladi.
+
+<ul> … </ul> — tartiblanmagan (belgili) ro’yhatni aniqlash tegi. Teg atributlari:
+type=«disk — doira, circle -aylana yoki square -to’rtburchak kabi ro’yhat markerlarini aniqlash»
+
+Tartiblanmagan ro’yhat ichidagi har bir elementi qo’yidagi teglar yordamida aniqlanadi:
+
+<lh> … </lh> — ro’yhat sarlavha elementini aniqlash tegi.
+
+<li> … </li> — ro’yhat oddiy elementini aniqlash tegi.
+
+Tartiblanmagan ro’yhat elementini aniqlash ushbu ikkita teglari qo’yidagi atributlarga ega:
+align = elementni hujjatdagi joylashuvi ( chap -«left» , o’ng — «right» , o’rta — «center» yoki ikkala tomon bo’yicha — «justify»)
+title = «sichqoncha bilan elementga ko’rsatilganda, ekranda chiquvchi yordamchi izoh matni»
+
+Misol:
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <!-- Sahifaning ekranga chiqmaydigan qism -->
+   <title> ..: Mening birinchi sahifam :.. </title>
+   <link rel="shortcut icon"  href="picture/icon.png" type="images/png">
+ </head>
+
+ <body>  
+   
+     <!-- Tartiblanmagan ro'yhat -->
+<ul type="square"> 
+<lh>  Dars  tarkibi:  </ln>
+<li> Ma'ruza </li>
+<li> Test </li> 
+<li> Amaliy vazifa </li> 
+</ol>
+
+
+ </body>
+</html>
+
+Bu misolda web sahifamizda to’rtburchak belgisi bilan boshlangan 3-ta elementdan iborat tartiblanmagan ro’yhat yaratiladi.
+
+Yana bir ro’yhat turi bu atamalarni (terminlarni) ta’riflash ro’yhati.
+
+<dl> … </dl> — atamalarni (terminlarni) ta’riflarlash ro’yhatni aniqlash tegi. Ushbu ro’yhat ichida qo’yidagi teglar yordamida juftlik elementlar aniqlanadi:
+
+<dt> … </dt> — asosiy atamani (terminni) aniqlash tegi.
+
+<dd> … </dd> — atamaning (terminning) ta’rifini aniqlash tegi.
+
+Ushbu ikkita — atama va ta’riflar ro’yhat teglari qo’yidagi atributlarga ega:
+align = elementni hujjatdagi joylashuvi ( chap -«left» , o’ng — «right» , o’rta — «center» yoki ikkala tomon bo’yicha — «justify»)
+title = «sichqoncha bilan elementga ko’rsatilganda, ekranda chiquvchi yordamchi izoh matni»
+
+Misol:
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <!-- Sahifaning ekranga chiqmaydigan qism -->
+   <title> ..: Mening birinchi sahifam :.. </title>
+   <link rel="shortcut icon"  href="picture/icon.png" type="images/png">
+ </head>
+
+ <body>  
+   
+     <!-- Atamalarni ta'riflash ro'yhati -->
+<dl>
+<dt> HTML </dt>
+<dd> Hyper Text Markup Language  -  Giper Matnli Markerlash Tili  yani web-sahifalarni yaratish tili. Ammo dasturlash tili emas.</dd> 
+<dt> CSS </dt>
+<dd> Web -sahifaning stilini (elementlar va bloklarning tashki ko'rinishini) aniqlash  fayllari</dd> 
+<dt> Java Script </dt>
+<dd> Web-sahifada interaktiv elementlar yaratish va ularga dastur yaratish</dd> 
+</dl>
+
+ </body>
+</html>
+
+Bu misolda web sahifamizda 3-ta atamalar ta’rifini aniqlash ro’yhat yaratiladi.
+
+Internet va gipermatnli hujjatlarning asosiy afzalligidan biri — bu giperyo’llanma (havola ).
+
+Giperyo’llanma bu — istalgan bitta web-sahifadan, dunyoning boshqa veb-sahifa yoki boshqa Internetda joylashgan resursiga (rasm, video, audio, PDF va boshqa fayllar) tezkor sakrab o’tish buyrug’idir.
+
+Giperyo’llanma ikkita asosiy elementlardan iborat:
+1) giperyo’llanma bog’langan element (mant, rasm yoki boshqa ob’ekt)
+2) gipermurojaat qilinadigan element (URL adresga ega bo’lgan web-sahifa, rasm, video yoki boshqa ob’ekt).
+
+Giperyo’llanmalar yordamida HTMLda yaratilgan bir nechta bitta mavzuga mos bo’lgan web sahifalarni bir-biri bilan bog’lab bitta web-sayt yaratiladi.
+
+Gipermurojaat <a> … </a> juft teglar orasidagi (mant, rasm, yoki boshqa) ob’ektga bog’lanib, faqat unga ta’sir qiladi. Ushbu ob’ektga sichqonchaning chap tugmasi bilan bosilganda kerakli URL adres bo’yicha joylashgan boshqa ob’ektga sakrab o’tiladi. Teg asosiy atributlari:
+href = «gipermurojaatda ko’rsatilgan URL adres bo’yicha web sahifa («http:// www. barakaustoz. uz») yoki yuklanishi kerak bo’lgan resurs (rasm, video, audio, PDF va boshqa fayllar) nomi («download / albom. jpg») yoki xabar junatilishi kerak bo’lgan elektron pochta adresi («mailto: barakaustoz @ inbox. uz»)»
+target = «gipermurojaat ochilish oyna turi (_blank — yangi oynada, _self — shu oyna o’zida, _parent — ota oynada)»
+title = «gipermurojaatga sichqoncha bilan ko’rsatganda ekranda chiquvchi izoh matni»
+
+Misol:
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <!-- Sahifaning ekranga chiqmaydigan qism -->
+   <title> ..: Mening birinchi sahifam :.. </title>
+   <link rel="shortcut icon"  href="picture/icon.png" type="images/png">
+ </head>
+
+ <body>  
+   
+<div align="center">
+| <a href="index.html target ="_self" title="Bosh sahifa"> Asosiy </a> |
+| <a href="photo.html" target ="_self" title="Foto-albom"> Foto </a> |
+| <a href="autor.html" target ="_self" title="Biz haqida"> Mualliflar </a> |
+| <a href="mailto:barakaustoz@ inbox.uz" title="Bizga habar jo'natish"> Habar jo'natish</a> |
+</div> 
+
+ </body>
+</html></p>
+<div class="rang">
+<h2>BU MENING MUSTAQIL ISHIM</h2>
+</div>
+      <div class="shapka">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8R44ov7yC9PSeHIgjJfiujBQwbs3g2KOGUg&s">
+      </div>
+      <h1>URGANCH DAVLAT UNIVERSITETI</h1>
+      <p>Urganch davlat universiteti — Oʻzbekistondagi oliy taʼlim muassasasi. Xorazm viloyati, 1942-yil iyulda Urganch shahrida toʻliqsiz oliy maʼlumotli oʻqituvchilar tayyorlash instituti sifatida tashkil etilgan. 1992-yilda Oʻzbekiston Respublikasi Prezidentining „PF-356“.-sonli Farmoni asosida Urganch Davlat Universiteti maqomi berilgan.
+
+Universitet tarixi
+Urganch davlat universiteti ilgaridan faoliyat koʻrsatib kelgan Xorazm davlat pedagogika instituti asosida tashkil topgan. Xorazm Davlat pedagogika instituti 1-sentyabr 1942-yilda toʻliqsiz oliy maʼlumotli oʻqituvchilar tayyorlaydigan institut asosida tashkil topgan [2]. Institut tarkibida 4 ta fakultet mavjud edi: fizika-matematika, oʻzbek tili va adabiyoti, rus tili va adabiyoti, tarix. 1991-yilga kelib XDPI da 6 ta fakultet va 22 kafedra faoliyat olib borgan.
+
+Faoliyati
+Urganch davlat universiteti O‘zbekiston Respublikasining eng qadimiy universitetlaridan biridir. Hozirgi kunda Urganch davlat universiteti o‘quv va ilmiy tadqiqot, masofaviy taʼlim va olimlarni faol rag‘batlantirishda yuksak natijalarga erishmoqda. Universitet Oʻzbekistonning shimoli-gʻarbiy qismidagi Xorazm viloyatida, mamlakatning tarixiy va madaniy markazlaridan biri boʻlgan hududda joylashgan. Xiva shahri sayyohlar orasida mashhur, shahardagi Ichan-qalʼa majmuasi YuNESKOning Butunjahon merosi ro‘yxatiga[3] kiritilgan. Shahar 2500 yildan ortiq tarixga ega boʻlgan tarixiy obidalarga ega. Xorazm, ayniqsa, ilm-fan tarixida boy ilmiy merosga ega bo‘lib, talabalar uchun o‘ziga xos tadqiqot muhitini taqdim etadi. Xorazmda 8-11-asrlarda Al-Xorazmiy, Abu Rayhon Beruniy kabi buyuk allomalari tavallud topgan. Ular bugungi kunda mavjud boʻlgan ilmiy bilimlarga katta hissa qoʻshdilar. Masalan, algebra so‘zi „Kitob muxtasar min hisob aljabr valmuqobala“ („Aljabr valmuqobala hisobi haqida qisqacha kitob“) asari nomidan kelib chiqqani yaxshi maʼlum, algoritm so‘zi esa uning nomidan kelib chiqqan. Bu olimlar faoliyat ko‘rsatgan Xorazmning tarixiy maskanlariga tashrif buyurish orqali talabalar 8-15-asr ilm-fani tarixi, shuningdek, Al-Xorazmiy va Abu Rayhon Beruniy asarlarining ularning taraqqiyot va ilm-fanga qo‘shgan ulkan hissasi haqidagi bilimlarini kengaytiradilar.
+
+Urganch davlat universitetida 30 000 dan ortiq talabalar yaxshi ilmiy va taʼlim muhiti yaratilgan. Universitet professor-o‘qituvchilari tomonidan 160 dan ortiq o‘quv dasturlari ishlab chiqilib, bakalavrlar, magistrlar va doktorantlar uchun Muhandislik, Matematika, Kompyuter ilmlari, Tarix, Iqtisodiyot, Kimyo, Biologiya, Biotexnologiya, Oziq-ovqat fani, Pedagogika va boshqa bilim yo‘nalishlari bo‘yicha muvaffaqiyatli amalga oshirilmoqda.
+
+Urganch davlat universiteti Erasmus+ xalqaro kredit mobilligi loyihalari CLASS[4], EPCA [5], ELBA [6], IRES [7], 3D Digital Silk Road [8], English for STEM, SUMRICA [9] doirasida xorijiy universitetlar bilan hamkorlik qiladi. Universitet 100 dan ortiq oliy oʻquv yurtlari va ilmiy-tadqiqot muassasalari bilan hamkorlik toʻgʻrisida shartnomalar imzolagan. Talabalarimiz Italiya, Fransiya, Sloveniya, Ispaniya, Portugaliya, Daniya, Polsha, Gretsiya, Rossiya va boshqa mamlakatlarda akademik mobillik asosida tahsil olish imkoniyatiga ega.</p>
+      <h2>FAKULTETLAR</h2>
+      <ul>
+            <li>Bioinjeneriya va oziq-ovqat xavfsizligi fakulteti</li>
+            <li>Filologiya fakulteti</li>
+            <li>Kompyuter injiniringi fakulteti</li>
+            <li>Fizika-matematika fakulteti</li>
+            <li>Iqtisodiyot fakulteti</li>
+            <li>Jismoniy madaniyat fakulteti</li>
+            <li>Kimyoviy texnologiyalar fakulteti</li>
+            <li>Pedagogika fakulteti</li>
+            <li>San'atshunoslik fakulteti</li>
+            <li>Tabiiy fanlar fakulteti</li>
+            <li>Tarix fakulteti</li>
+            <li>Texnika fakulteti</li>
+            <li>Xorijiy filologiya fakulteti</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tKIaTceRPHg?si=YM4D8d2d6CbXKNSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
